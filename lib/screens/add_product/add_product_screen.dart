@@ -37,7 +37,6 @@ class _AddProductScreenState extends State<AddProductScreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     this.qrViewcontroller?.dispose();
     super.dispose();
   }
